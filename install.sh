@@ -1,4 +1,5 @@
 #!/usr/bin/env bash                                                                                                                                                                                                                                                                  
+# TODO: Check if vim is installed and if it is compaitable with python
 
 # Install Vundle 
 rm -rf ~/.vim/bundle/Vundle.vim
