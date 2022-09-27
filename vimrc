@@ -14,6 +14,7 @@ Plugin 'VundleVim/Vundle.vim'
 " Plugins
 Plugin 'Vimjas/vim-python-pep8-indent'
 Plugin 'vim-airline/vim-airline'
+Plugin 'davidhalter/jedi-vim'
 
 
 " All of your Plugins must be added before the following line
