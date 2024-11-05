@@ -71,7 +71,5 @@ unset __conda_setup
 
 export PATH="$HOME/miniconda3/bin:$PATH"
 
-source $HOME/.config/broot/launcher/bash/br
-
 bindkey -v
 bindkey '^R' history-incremental-search-backward
