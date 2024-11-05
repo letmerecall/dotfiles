@@ -21,3 +21,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugi
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
 
 ln -sf $(pwd)/zshrc $HOME/.zshrc
+
+# tmux config
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+ln -sf $(pwd)/tmux.conf $HOME/.tmux.conf
