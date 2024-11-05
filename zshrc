@@ -1,4 +1,4 @@
-export ZSH="/home/girish/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 ZSH_THEME="common"
 
@@ -49,31 +49,29 @@ export TERM=xterm-256color
 #
 export PATH=$PATH:/usr/local/go/bin
 
-export GOPATH=/home/girish/golib
+export GOPATH=$HOME/golib
 export PATH=$PATH:$GOPATH/bin
-export GOPATH=$GOPATH:/home/girish/documents/learn/learn-go
-
-# export PATH="/home/girish/miniconda3/bin:$PATH"  # commented out by conda initialize
+export GOPATH=$GOPATH:$HOME/documents/learn/learn-go
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/girish/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+__conda_setup="$('$HOME/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
 if [ $? -eq 0 ]; then
     eval "$__conda_setup"
 else
-    if [ -f "/home/girish/miniconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/girish/miniconda3/etc/profile.d/conda.sh"
+    if [ -f "$HOME/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "$HOME/miniconda3/etc/profile.d/conda.sh"
     else
-        export PATH="/home/girish/miniconda3/bin:$PATH"
+        export PATH="$HOME/miniconda3/bin:$PATH"
     fi
 fi
 unset __conda_setup
 # <<< conda initialize <<<
 
 
-export PATH="/home/girish/miniconda3/bin:$PATH"
+export PATH="$HOME/miniconda3/bin:$PATH"
 
-source /home/girish/.config/broot/launcher/bash/br
+source $HOME/.config/broot/launcher/bash/br
 
 bindkey -v
 bindkey '^R' history-incremental-search-backward
